@@ -1,0 +1,106 @@
+<title>REGISTRO CLIENTE</title>
+<br>
+<div class="centrar">
+    <div class="card" style="border-radius: 30px;" id="form">
+        <form name="form" class="centrarForm" (ngSubmit)="f.form.valid && add()" #f="ngForm" novalidate autocomplete="off" >
+            <br>
+            <h1 style="text-align: center;">Registrar</h1>
+            <br>
+            <div class="form-group">
+                <input type="text" class="form-control" name="cedula" [(ngModel)]="cliente.cedula" minlength="5" maxlength="9" #cedula="ngModel"
+                    placeholder="Numero de identificación"
+                    [ngClass]="{ 'is-invalid': cedula.touched && cedula.invalid }" required />
+                <div *ngIf="cedula.touched && cedula.invalid" class="invalid-feedback">
+                  <div *ngIf="cedula.errors.required">El numero de identificación es requerido</div>
+                  <div *ngIf="cedula.errors.minlength || cedula.errors.maxlength">El número de identificación debe tener entre 5 y 9 digitos</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="nombre" [(ngModel)]="cliente.nombre" maxlength="30" minlength="3" #nombre="ngModel"
+                    placeholder="Nombre" [ngClass]="{ 'is-invalid': nombre.touched && nombre.invalid }" required />
+                <div *ngIf="nombre.touched && nombre.invalid" class="invalid-feedback">
+                  <div *ngIf="nombre.errors.required">El nombre es requerido</div>
+                  <div *ngIf="nombre.errors.minlength || nombre.errors.maxlength">El nombre debe tener entre 3 y 30 digitos</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="username" [(ngModel)]="user.username" #username="ngModel" maxlength="12" minlength="4"
+                    placeholder="Usuario" [ngClass]="{ 'is-invalid': username.touched && username.invalid }" required />
+                <div *ngIf="username.touched && username.invalid" class="invalid-feedback">
+                  <div *ngIf="username.errors.required">El username es requerido</div>
+                  <div *ngIf="username.errors.minlength || username.errors.maxlength">El usuario debe tener entre 4 y 12 digitos</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" [(ngModel)]="user.password" #password="ngModel" minlength="8"
+                    placeholder="Contraseña" [ngClass]="{ 'is-invalid': password.touched && password.invalid }" required />
+                <div *ngIf="password.touched && password.invalid" class="invalid-feedback">
+                  <div *ngIf="password.errors.required">El password es requerido</div>
+                  <div *ngIf="password.errors.minlength">La contraseña debe tener al menos 8 digitos</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" name="apellido" [(ngModel)]="cliente.apellido" maxlength="30" minlength="3"
+                    #apellido="ngModel" placeholder="Apellido"
+                    [ngClass]="{ 'is-invalid': apellido.touched && apellido.invalid }" required />
+                <div *ngIf="apellido.touched && apellido.invalid" class="invalid-feedback">
+                  <div *ngIf="apellido.errors.required">El apellido es requerido</div>
+                  <div *ngIf="apellido.errors.minlength || apellido.errors.maxlength">El apellido debe tener entre 3 y 30 digitos</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <select class="form-control" name="sexo" [(ngModel)]="cliente.sexo" #sexo="ngModel"required>
+                    <option value="Seleccionar sexo">Seleccionar sexo</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+                <div *ngIf="sexo.touched && sexo.invalid" class="invalid-feedback">
+                    <div *ngIf="sexo.errors.required">El sexo es requerido</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+              <input type="number" class="form-control" name="edad" [(ngModel)]="cliente.edad" #edad="ngModel"
+                     placeholder="Edad" [ngClass]="{ 'is-invalid': edad.touched && edad.invalid || edad.value < 18 || edad.value > 105}" required />
+              <div *ngIf="edad.touched && edad.invalid" class="invalid-feedback">
+                <div *ngIf="edad.errors.required">La edad es requerida</div>
+              </div>
+              <div *ngIf="edad.value < 18">Debe tener al menos 18 años de edad</div>
+              <div *ngIf="edad.value > 105">Debe tener menos de 106 años de edad</div>
+
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" name="telefono" [(ngModel)]="cliente.telefono" maxlength="10" minlength="10"
+                    #telefono="ngModel" placeholder="Telefono"
+                    [ngClass]="{ 'is-invalid': telefono.touched && telefono.invalid }" required />
+                <div *ngIf="telefono.touched && telefono.invalid" class="invalid-feedback">
+                  <div *ngIf="telefono.errors.required">El telefono es requerido</div>
+                  <div *ngIf="telefono.errors.minlength || telefono.errors.maxlength">El telefono debe tener 10 digitos</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" name="email" [(ngModel)]="cliente.email" #email="ngModel"
+                    placeholder="Email" [ngClass]="{ 'is-invalid': email.touched && email.invalid }" required />
+                <div *ngIf="email.touched && email.invalid" class="invalid-feedback">
+                    <div *ngIf="email.errors.required">El email es requerido</div>
+                </div>
+            </div>
+
+            <div class="">
+                <div>
+                    <!-- Forgot password -->
+                    <a href="">¿Has olvidado tu contraseña?</a>
+                </div>
+            </div>
+
+            <!-- Sign in button -->
+            <button style="border-radius: 30px;" class="btn btn-outline-primary" type="submit"
+                [disabled]="!f.form.valid"><b>Registrar</b></button>
+        </form>
+        <br>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+<title>CONSULTAR HABITACIONES</title>
+<br>
+<div class="centrar">
+
+    <div class="card" style="border-radius: 20px;">
+        <div class="card-body">
+
+            <div class="container" style="margin-left: -0px;">
+                <form class="form-inline" class="container" id="Buscador">
+                    <input class="form-control mr-sm-2" name="filtroHabitacion" [(ngModel)]="searchText" type="text"
+                        placeholder="Buscar por # Habitacion" aria-label="Search">
+                </form><br>
+
+
+                <table class="table" *ngIf='habitaciones && habitaciones.length'>
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Numero de Habitacion </th>
+                            <th>Tipo de Habitacion</th>
+                            <th>Estado</th>
+                            <th>Numero de Personas</th>
+                            <th>Precio</th>
+                            <th >Editar</th>
+                            <th >Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let habitacion of habitaciones|filtroHabitacion:searchText; index as i ">
+                            <td>{{ habitacion.idHabitacion }} </td>
+                            <td>{{ habitacion.tipo }}</td>
+                            <td>{{ habitacion.estado }}</td>
+                            <td>{{ habitacion.nPersonas }}</td>
+                            <td>{{ habitacion.precio | currency: 'COP $ ' }}</td>
+                            <td><button  style=" border-radius: 15px; margin-top: 15px;" class="btn btn-primary"><i class="far fa-edit"></i></button></td>
+                            <td><button  style=" border-radius: 15px; margin-top: 15px;" class="btn btn-danger"><i class="far fa-trash-alt"></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

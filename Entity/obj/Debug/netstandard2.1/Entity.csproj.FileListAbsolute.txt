@@ -1,0 +1,64 @@
+C:\Users\Osuka\Desktop\ProyectoWeb\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\Osuka\Desktop\ProyectoWeb\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Osuka\Desktop\ProyectoWeb\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Osuka\Desktop\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\Osuka\Desktop\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\Osuka\Desktop\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\Osuka\Desktop\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Osuka\Desktop\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\Osuka\Desktop\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.pdb
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Entity\bin\Debug\netstandard2.1\Entity.dll
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Entity\bin\Debug\netstandard2.1\Entity.pdb
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.dll
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Entity\obj\Debug\netstandard2.1\Entity.pdb
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Entity\obj\Debug\netstandard2.1\Entity.pdb
+C:\Users\norma\Desktop\proyectohotel-main\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\norma\Desktop\proyectohotel-main\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\norma\Desktop\proyectohotel-main\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\norma\Desktop\proyectohotel-main\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\norma\Desktop\proyectohotel-main\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\norma\Desktop\proyectohotel-main\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\norma\Desktop\proyectohotel-main\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\norma\Desktop\proyectohotel-main\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\norma\Desktop\proyectohotel-main\Entity\obj\Debug\netstandard2.1\Entity.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Entity\obj\Debug\netstandard2.1\Entity.pdb
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\bin\Debug\netstandard2.1\Entity.dll
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\bin\Debug\netstandard2.1\Entity.pdb
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\obj\Debug\netstandard2.1\Entity.csproj.AssemblyReference.cache
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\obj\Debug\netstandard2.1\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\obj\Debug\netstandard2.1\Entity.dll
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Entity\obj\Debug\netstandard2.1\Entity.pdb

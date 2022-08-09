@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  input[type="text"],
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #0028ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    padding: 0.5% 4%;
+    cursor: pointer;
+    
+    color: #ffffff;
+    background-color: #10eaf0;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #0028ff;
+    width: 98%;
+    position: relative;
+    left: 1%;
+    height: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  input[type="submit"]:hover {
+    background-color: #0028ff;
+  }
+  
+  #divcontainer {
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    background-color: #007bff;
+    width: 98%;
+    position: relative;
+    left: 1%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #divcontainer2 {
+    border-radius: 25px;
+    width: 98%;
+    height: 60px;
+    position: relative;
+    left: 1%;
+    margin-bottom: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #divcontainer3 {
+    border-radius: 25px;
+    width: 30%;
+    height: 60px;
+    position: relative;
+    left: 39%;
+    margin-bottom: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  form {
+    
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  input:disabled {
+    color: rgb(255, 255, 255);
+  }
+  

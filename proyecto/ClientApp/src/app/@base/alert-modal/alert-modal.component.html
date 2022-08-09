@@ -1,0 +1,14 @@
+<div tabindex="-1">
+    <div class="modal-header">
+        <h4 class="modal-title">{{title}}</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <span [innerHTML]="cuerpo"></span>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-succes" (click)="modal.close('Close click')">Aceptar</button>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+<title>REGISTRO DE HABITACIONES</title>
+<br>
+<div class="centrar">
+    <div class="card" style="border-radius: 30px;" id="form">
+        <form name="form" class="centrarForm" (ngSubmit)="f.form.valid && add()" #f="ngForm" novalidate
+            autocomplete="off">
+            <br>
+            <h1 style="text-align: center;">Registrar habitación</h1>
+            <br>
+            <div class="form-group">
+                <input type="text" class="form-control" name="idHabitacion" [(ngModel)]="habitacion.idHabitacion"
+                       maxlength="4" minlength="4"
+                    #idHabitacion="ngModel" placeholder="Número de la habitación"
+                    [ngClass]="{ 'is-invalid': idHabitacion.touched && idHabitacion.invalid }" required />
+                <div *ngIf="idHabitacion.touched && idHabitacion.invalid" class="invalid-feedback">
+                  <div *ngIf="idHabitacion.errors.required">El numero de la habitación es requerida</div>
+                  <div *ngIf="idHabitacion.errors.minlength || idHabitacion.errors.maxlength">El Número de la habitación debe tener 4 digitos</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <select class="form-control" name="tipo" [(ngModel)]="habitacion.tipo" #tipo="ngModel" required>
+                    <option value="seleccionar tipo">Seleccionar tipo</option>
+                    <option value="Simple">Simple</option>
+                    <option value="Doble">Doble</option>
+                    <option value="Triple">Triple</option>
+                    <option value="Familiar">Familiar</option>
+                </select>
+                <div *ngIf="tipo.touched && tipo.invalid" class="invalid-feedback">
+                    <div *ngIf="tipo.errors.required">El tipo de habitación es requerido</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="number" class="form-control" name="nPersonas" [(ngModel)]="habitacion.nPersonas"
+                       minlength="1" maxlength="5"
+                    #nPersonas="ngModel" placeholder="Número de personas"
+                    [ngClass]="{ 'is-invalid': nPersonas.touched && nPersonas.invalid }" required />
+                <div *ngIf="nPersonas.touched && nPersonas.invalid" class="invalid-feedback">
+                  <div *ngIf="nPersonas.errors.required">El número de personas es requerido</div>
+                  <div *ngIf="nPersonas.errors.minlength || nPersonas.errors.maxlength">El número de personas debe tener entre 1 y 5 digitos</div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <select class="form-control" name="estado" [(ngModel)]="habitacion.estado" #estado="ngModel" required>
+                    <option value="seleccionar estado">Seleccionar estado</option>
+                    <option value="ocupado">Ocupado</option>
+                    <option value="desocupado">Desocupado</option>
+                    <option value="mantenimiento">En Mantenimiento</option>
+                </select>
+                <div *ngIf="estado.touched && estado.invalid" class="invalid-feedback">
+                    <div *ngIf="estado.errors.required">El estado de la habitación es requerido</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" name="precio" [(ngModel)]="habitacion.precio"
+                       minlength="6" maxlength="7"
+                    #precio="ngModel" placeholder="Precio de la habitación"
+                    [ngClass]="{ 'is-invalid': precio.touched && precio.invalid }" required />
+                <div *ngIf="precio.touched && precio.invalid" class="invalid-feedback">
+                  <div *ngIf="precio.errors.required">El precio de personas es requerido</div>
+                  <div *ngIf="precio.errors.minlength || precio.errors.maxlength">El precio debe tener entre 6 y 7 digitos</div>
+                </div>
+            </div>
+            <!-- Sign in button -->
+            <button style="border-radius: 30px;" class="btn btn-outline-primary" type="submit"
+                [disabled]="!f.form.valid"><b>Registrar</b></button>
+        </form>
+        <br>
+    </div>
+</div>
+<br><br>

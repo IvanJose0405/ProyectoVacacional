@@ -1,0 +1,120 @@
+<title>GESTION RESERVA</title>
+<br>
+<div class="centrar">
+    <div class="card" style="border-radius: 30px;" id="form">
+        <form name="form" class="centrarForm" (ngSubmit)="f.form.valid" #f="ngForm" novalidate autocomplete="off">
+            <br>
+            <div class="form-group" style="margin-right: 0px;">
+                <h3 style="text-align: center;">GESTIONAR RESERVA</h3>
+                <br>
+                <div class="input-group-prepend" style="margin-bottom: -43px;">
+                    <button class="btn btn-outline-primary" (click)="BuscarCedula()" type="button"
+                        style="margin-right: 0px; font-size: 10px; left: -6px;"><b>Buscar</b></button>
+                </div>
+
+                <div class="form-group" style="margin-left: 73px;">
+                    <input type="text" style="font-size: 16px;" class="form-control" name="cedula"
+                        [(ngModel)]="cliente.cedula" #cedula="ngModel" placeholder="Numero de identificación"
+                        [ngClass]="{ 'is-invalid': cedula.touched && cedula.invalid }" required />
+                    <div *ngIf="cedula.touched && cedula.invalid" class="invalid-feedback">
+                        <div *ngIf="cedula.errors.required">El numero de identificación es requerido</div>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="form-group" style="margin-left: 0px;">
+                    <label for="e">Fecha de entrada</label>
+                    <input type="date" style="font-size: 16px;" class="form-control" name="fechaEntrada"
+                        [(ngModel)]="reserva.fechaEntrada" #fechaEntrada="ngModel" placeholder="DD/MM/AAAA"
+                        [ngClass]="{ 'is-invalid': fechaEntrada.touched && fechaEntrada.invalid }" required />
+                    <div *ngIf="fechaEntrada.touched && fechaEntrada.invalid" class="invalid-feedback">
+                        <div *ngIf="fechaEntrada.errors.required">La fecha de entrada es requerida</div>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-left: 0px;">
+                    <label for="s">Fecha de salida</label>
+                    <input type="date" style="font-size: 16px;" class="form-control" name="fechaSalida"
+                        [(ngModel)]="reserva.fechaSalida" #fechaSalida="ngModel" placeholder="DD/MM/AAAA"
+                        [ngClass]="{ 'is-invalid': fechaSalida.touched && fechaSalida.invalid }" required />
+                    <div *ngIf="fechaSalida.touched && fechaSalida.invalid" class="invalid-feedback">
+                        <div *ngIf="fechaSalida.errors.required">La fecha de salida es requerida</div>
+                    </div>
+                </div>
+                <button class="btn btn-outline-primary" (click)="filtrar()"
+                    style="margin-left: 76px; border-radius: 10px; margin-left:  -0px;"><b>Filtrar</b></button>
+            <div *ngIf="verificar" style="margin-left: -135px;">
+
+                <div class="col-lg-14 col-md-7" style="margin-left: 118px;">
+                    <div class="form-group" style="margin-right: -225px;">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" [(ngModel)]="cliente.nombre" required
+                            disabled />
+                    </div>
+                    <div class="form-group" style="margin-right: -225px;">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" name="apellido" [(ngModel)]="cliente.apellido" required
+                            disabled />
+                    </div>
+                </div>
+
+                <br><br>
+                <!-- Card -->
+                <div *ngIf="habitacionCards">
+                    <div class="card-deck" style="margin-left: 40px;">
+                        <div class="row">
+                            <div id="cardr" style="left: 5%; border-radius:  20px;" class="card"
+                                *ngFor="let habitacion of habitaciones ">
+
+                                
+
+                                <div align="center">
+                                    <br>
+                                    <h3 class="card-title">HABITACIÓN # <h3 style="color: red;">{{habitacion.idHabitacion}}</h3></h3>
+                                    <hr>
+                                </div>
+
+
+                                <!-- Card content -->
+                                <div class="card-body">
+
+                                    <h3 class="card-title" style="text-align: center;"><b># DE PERSONAS</b><br>
+                                        <h3 style="color: red;">{{habitacion.nPersonas}}</h3></h3>
+                                    <h3 class="card-title" style="text-align: center;"><b>TIPO</b><br>
+                                        <h3 style="color: red;">{{habitacion.tipo}}</h3></h3>
+                                        <h3 class="card-title" style="text-align: center;"><b>ESTADO</b><br>
+                                            <h3 style="color: red;">{{habitacion.estado}}</h3></h3>
+                                        <h3 class="card-title" style="text-align: center;"><b>PRECIO</b><br>
+                                            <h3 style="color: red;">{{habitacion.precio}}</h3></h3>
+
+                                </div>
+                                <div class="card-footer">
+                                    <button [disabled]="habitacionEstado" *ngIf="habitacion.idHabitacion"
+                                        style=" border-radius: 10px; margin: 0px;"
+                                        (click)="mensaje(); reserva.IdHabitacion = habitacion.idHabitacion; reserva.Cedula = cliente.cedula; reserva.tipo = habitacion.tipo; reserva.nPersonas = habitacion.nPersonas; reserva.precio = habitacion.precio"
+                                        type="button" class="btn btn-outline-primary btn-lg btn-block">
+                                        <h5>
+                                            Reservar
+                                        </h5>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                    </div>
+                    <br><br>
+                </div>
+                <button class="btn btn-outline-primary" (click)="add()"
+                    style="margin-left: 126px; border-radius: 10px;"><b>Registrar</b></button>
+            </div>
+            <div *ngIf="registrar" style="margin-left: -77px;">
+                <label for="mensaje" style="display: flex; margin-left: 76px;">Haga click en registrarse para ir a
+                    registrarse</label>
+                <a type="button" class="btn btn-outline-primary" [routerLink]='["/clienteregistro"]'
+                    style="margin-left: 76px;  border-radius: 10px;"><b>Registrarse</b></a>
+            </div>
+        </form>
+        <br>
+    </div>
+</div>

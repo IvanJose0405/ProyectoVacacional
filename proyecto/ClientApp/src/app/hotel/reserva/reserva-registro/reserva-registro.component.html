@@ -1,0 +1,70 @@
+<title>REGISTRO RESERVA</title>
+<br>
+<div class="centrar">
+    <div class="card" style="border-radius: 30px;">
+        <form name="form" class="centrarForm" (ngSubmit)="f.form.valid && add()" #f="ngForm" novalidate
+            autocomplete="off">
+
+            <div class="form-group">
+                <label>Codigo Reserva</label>
+                <label>{{reserva.idReserva}}</label>
+            </div>
+            
+            <div class="form-group">
+                <label>Cedula Cliente</label>
+                <input type="text" id="cedula" name="cedula"
+                    [ngClass]="{'is-invalid': control.cedula.errors && control.cedula.touched}" formControlName="cedula">
+                <div *ngIf="control.cedula.errors" class="invalid-feedback">
+                    <div *ngIf="control.cedula.errors.required">Se requiere el numero de cedula</div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label>Numero de Habitacion: </label>
+                <label>{{reserva.idHabitacion}}</label>
+            </div>
+            
+            
+            <div class="form-group">
+                <label>Tipo de Habitacion: </label>
+                <label>{{reserva.tipo}}</label>
+            </div>
+            
+            
+            <div class="form-group">
+                <label>Numero de Personas: </label>
+                <label>{{reserva.nPersonas}}</label>
+            </div>
+            
+            <div class="form-group">
+                <label>Precio de Habitacion: </label>
+                <label>{{reserva.precio}}</label>
+            </div>
+            
+            <div>
+                <label>Fecha de entrada:</label>
+                <input [disabled]="validarFecha" type="date" id="fechaentrada" name="Fecha de Entrada">
+            </div>
+            <div> 
+                <label>Fecha de salida:</label>
+                <input [disabled]="validarFecha" type="date" id="fechasalida" name="Fecha de Salida">
+            </div>
+            
+            <div class="form-group">
+                <label>Total</label>
+                <input  type="number" id="precio" name="precio"
+                    [ngClass]="{'is-invalid': control.precio.errors && control.precio.touched}" formControlName="precio"
+                    placeholder="Precio de Habitacion">
+                <div *ngIf="control.precio.errors" class="invalid-feedback">
+                    <div *ngIf="control.precio.errors.required">Se requiere el precio de la habitacion</div>
+                </div>
+            </div>
+            
+            <br>
+            <button id="divcontainer2" type="reset" class="btn btn-primary" (click)="onSubmit()" [disabled]="formregistro.invalid"
+                [routerLink]='["/habitacionconsulta"]'>Guardar</button>
+        </form>
+        <br>
+    </div>
+</div>
+

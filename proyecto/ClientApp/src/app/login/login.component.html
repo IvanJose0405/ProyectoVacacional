@@ -1,0 +1,77 @@
+<br><br>
+<div class="centrar">
+    <div class="card" style="border-radius: 30px;" id="form">
+        <form name="form" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate autocomplete="off"
+            class="text-center border border-light p-5" style="border-radius: 30px;" ngModelOptions="standalone">
+            <div>
+                <i class="fas fa-fw fa-users"></i>
+            </div>
+            <p class="h4 mb-4">Iniciar sesión</p>
+            <div *ngIf="estado == false;else state">
+                <div class="container">
+                    <!-- Email -->
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" minlength="4" maxlength="12"
+                            [(ngModel)]="user2.username" #username="ngModel" placeholder="Usuario"
+                            [ngClass]="{ 'is-invalid': username.touched && username.invalid }" required />
+                        <div *ngIf="username.touched && username.invalid" class="invalid-feedback">
+                          <div *ngIf="username.errors.required">El usuario es requerido</div>
+                          <div *ngIf="username.errors.minlength || username.errors.minlength">El usuario debe tener entre 4 y 12 digitos</div>
+                        </div>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" minlength="5"
+                            [(ngModel)]="user2.password" #password="ngModel" placeholder="Contraseña"
+                            [ngClass]="{ 'is-invalid': password.touched && password.invalid }" required />
+                        <div *ngIf="password.touched && password.invalid" class="invalid-feedback">
+                          <div *ngIf="password.errors.required">La contraseña es requerida</div>
+                          <div *ngIf="password.errors.minlength">La contraseña debe tener al menos 8 digitos</div>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <!-- Forgot password -->
+                            <a href="">Has olvidado tu contraseña?</a>
+                        </div>
+                    </div>
+
+                    <!-- Sign in button -->
+                    <button style="border-radius: 30px;" class="btn btn-outline-primary" type="submit"
+                        [disabled]="!f.form.valid" ><b>Iniciar sesión</b></button>
+
+                    <!-- Register -->
+                    <a type="button" [routerLink]='["/clienteregistro"]'><span>¿No eres usuario?. Registrate</span></a>
+                </div>
+            </div>
+            <ng-template #state>
+                <div *ngIf="user.tipo == 'Administrador'">
+                    <app-administracion></app-administracion>
+                </div>
+            </ng-template>
+            <ng-template #state>
+                <div *ngIf="user.tipo == 'recepcionista'">
+                    <app-reserva-registro></app-reserva-registro>
+                </div>
+            </ng-template>
+            <!-- Social login -->
+            <p>Visita nuestros sitios en:</p>
+
+            <a type="button" class="light-blue-text mx-2">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a type="button" class="light-blue-text mx-2">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a type="button" class="light-blue-text mx-2">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a type="button" class="light-blue-text mx-2">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,99 @@
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\Osuka\Desktop\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.pdb
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Logica.dll
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Logica.pdb
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Datos.dll
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Entity.dll
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Datos.pdb
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Entity.pdb
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.dll
+c:\Users\Dasp2\Desktop\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\Dasp2\OneDrive\Escritorio\HotelNeruda\ProyectoWeb\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\Dasp2\OneDrive\Documentos\ProyectoWeb2\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\norma\Desktop\proyectohotel-main\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\norma\Desktop\proyectohotel-main\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\norma\Desktop\proyectohotel-main\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\norma\Desktop\proyectohotel-main\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\norma\Desktop\proyectohotel-main\Logica\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\norma\Desktop\proyectohotel-main\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\norma\Desktop\proyectohotel-main\Logica\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\norma\Desktop\proyectohotel-main\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\norma\Desktop\proyectohotel-main\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\norma\Desktop\proyectohotel-main\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\norma\Desktop\proyectohotel-main\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\norma\Desktop\proyectohotel-main\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\norma\Desktop\proyectohotel-main\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\norma\Desktop\proyectohotel-main\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\Dasp2\OneDrive\Escritorio\hotela-main\Logica\obj\Debug\netstandard2.1\Logica.pdb
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\bin\Debug\netstandard2.1\Logica.dll
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\bin\Debug\netstandard2.1\Logica.pdb
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\bin\Debug\netstandard2.1\Datos.dll
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\bin\Debug\netstandard2.1\Entity.dll
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\bin\Debug\netstandard2.1\Datos.pdb
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\bin\Debug\netstandard2.1\Entity.pdb
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\obj\Debug\netstandard2.1\Logica.csproj.AssemblyReference.cache
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\obj\Debug\netstandard2.1\Logica.GeneratedMSBuildEditorConfig.editorconfig
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\obj\Debug\netstandard2.1\Logica.dll
+D:\josem\Escritorio\SOFTWARE 2\PROYECTO VACACIONAL\PROYECTO\ultimaversion2021hotelneruda-main\Logica\obj\Debug\netstandard2.1\Logica.pdb

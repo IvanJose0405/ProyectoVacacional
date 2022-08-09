@@ -1,0 +1,65 @@
+<title>CONSULTAR RESERVAS</title>
+<br>
+<div class="centrar">
+
+    <div class="card" style="border-radius: 20px;">
+        <div class="card-body">
+
+            <div class="container" style="margin-left: -0px;">
+
+
+                <div style="float: left; display: flex; margin-left: 200px;">
+                    <div style="margin-right: 10px;">
+                        <input class="form-control mr-sm-2" name="filtroHabitacion" [(ngModel)]="searchText" type="text"
+                            placeholder="Buscar por # Habitacion" aria-label="Search">
+                    </div>
+                    <div style="margin-left: 10px;">
+                        <input class="form-control mr-sm-2" name="filtroFecha" [(ngModel)]="searchDate" type="date"
+                            placeholder="Buscar por fechas reservada" aria-label="Search">
+                    </div>
+                </div>
+                <br><br>
+
+
+
+                <table class="table" *ngIf='reservas && reservas.length'>
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Cedula </th>
+                            <th scope="col">Número de habitación </th>
+                            <th scope="col">Fecha de la reserva </th>
+                            <th scope="col">Fecha de entrada </th>
+                            <th scope="col">Fecha de salida </th>
+                            <th scope="col" >CHECK IN </th>
+                            <th scope="col" >CHECK OUT </th>
+                            <th scope="col">Download </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let reserva of reservas |filtroReserva:searchText; let i = index ">
+                            <td>{{ reserva.cedula }}</td>
+                            <td>{{ reserva.idHabitacion }}</td>
+                            <td>{{ reserva.fechaReserva }}</td>
+                            <td>{{ reserva.fechaEntrada }}</td>
+                            <td>{{ reserva.fechaSalida }}</td>
+                            <td ><button [disabled]="estadoin"
+                                    (click)="checkin(reserva);" class="btn btn-primary"
+                                    style=" border-radius: 20px;"><i class="fas fa-check"></i></button></td>
+                            <td ><button [disabled]="estadoout"
+                                    (click)="checkout(reserva);" class="btn btn-primary"
+                                    style=" border-radius: 20px;"><i class="fas fa-check"></i></button></td>
+                            <td>
+                                <button  class="btn btn-danger"
+                                    style=" border-radius: 15px; margin-top: 0px;" (click)="generarFactura(reserva)"><i
+                                        class="fas fa-file-pdf"><br><small>pdf</small></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+</div>

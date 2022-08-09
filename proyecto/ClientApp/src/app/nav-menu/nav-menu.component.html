@@ -1,0 +1,124 @@
+<!-- Sidebar -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" [routerLink]="['/home']">
+        <div>
+            <i class="fas fa-building" style="color: black;"> <span style="font-size: 14px; margin-left: 5px; color:  white;">
+                    NERUDA MAR</span>
+            </i>
+        </div>
+
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item active">
+        <a class="nav-link" [routerLink]="['/home']" routerLinkActive="router-link-active">
+            <i class="fas fa-bed" style="color: black;"></i>
+            <span style="margin-left: 5px;">A MIMIR</span></a>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider">
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        Cuenta
+    </div>
+
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <div *ngIf="Close">
+            <a class="nav-link collapsed" routerLinkActive="router-link-active" data-toggle="collapse"
+                data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+                
+                <span id="tamaño">Iniciar sesión</span>
+            </a>
+        </div>
+        <div *ngIf="Open">
+            <a class="nav-link collapsed" routerLinkActive="router-link-active" data-toggle="collapse"
+                data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+                <i class="fas fa-sign-out-alt"></i>
+                <span id="tamaño">Cerrar sesión</span>
+            </a>
+        </div>
+        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <div *ngIf="Close">
+                    <a class="collapse-item" id="tamaño" [routerLink]="['/login']"
+                        routerLinkActive="router-link-active"><b> Iniciar sesión
+                        </b></a>
+                </div>
+                <div *ngIf="Open">
+                    <a class="collapse-item" [routerLink]="['/login']" (click)="removeLocal()"
+                        routerLinkActive="router-link-active" id="tamaño"><b> Cerrar sesión </b></a>
+                </div>
+                <div *ngIf="Close">
+                    <a class="collapse-item" [routerLink]="['/clienteregistro']" routerLinkActive="router-link-active"
+                        id="tamaño"><b>Registrarse</b></a>
+                    <a class="collapse-item" href="forgot-password.html"><b>¿Contraseña olvidada?</b></a>
+                    <div class="collapse-divider"></div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <div *ngIf="Open">
+        <div *ngIf="tipo == 'Administrador'">
+            <li class="nav-item active">
+                <a class="nav-link" [routerLink]="['/empleadogestion']" routerLinkActive="router-link-active">
+                    <img src="assets/user.png" alt="Logo" style="width: 15%;">
+                    <span style="margin-left: 5px;">GESTIÓN EMPLEADO</span></a>
+                </li>
+            <li class="nav-item active">
+                <a class="nav-link" [routerLink]="['/reservaconsulta']" routerLinkActive="router-link-active">
+                    <i class="fas fa-eye" style="color: black;"></i>
+                    <span style="margin-left: 5px;">CONSULTAR RESERVAS</span></a>
+                </li>
+        </div>
+        <div *ngIf="tipo == 'recepcionista'">
+            <li class="nav-item active" *ngIf="tipo == 'recepcionista'">
+                <a class="nav-link" [routerLink]="['/clientegestion']" routerLinkActive="router-link-active">
+                    <img src="assets/user2.png" alt="Logo" style="width: 15%;">
+                <span style="margin-left: 5px;">GESTIÓN CLIENTE</span></a>
+        </li>
+        </div>
+        <div *ngIf="tipo == 'Administrador'">
+            <li class="nav-item active" >
+                <a class="nav-link" [routerLink]="['/habitaciongestion']" routerLinkActive="router-link-active">
+                    <img src="assets/room.png" alt="Logo" style="width: 15%;">
+                    <span style="margin-left: 5px;">GESTIÓN HABITACIÓN</span></a>
+            </li>
+            <li class="nav-item active" >
+                <a class="nav-link" [routerLink]="['/clienteconsulta']" routerLinkActive="router-link-active">
+                    <img src="assets/user2.png" alt="Logo" style="width: 15%;">
+                    <span style="margin-left: 5px;">CONSULTAR CLIENTES</span></a>
+            </li>
+        </div>
+        <div *ngIf="tipo == 'Cliente' || tipo == 'recepcionista'">
+            <li class="nav-item active" >
+                <a class="nav-link" [routerLink]="['/reservagestion']" routerLinkActive="router-link-active">
+                    <img src="assets/factura.png" alt="Logo" style="width: 15%;">
+                    <span style="margin-left: 5px;">GESTIÓN RESERVA</span></a>
+            </li>
+            <div *ngIf="tipo == 'Cliente'">
+                <li class="nav-item active">
+                    <a class="nav-link" [routerLink]="['/reservaConsultaCliente']" routerLinkActive="router-link-active">
+                        <i class="fas fa-eye" style="color: black;"></i>
+                        <span style="margin-left: 5px;">CONSULTAR RESERVAS</span></a>
+                    </li>
+            </div>
+            <div *ngIf="tipo == 'recepcionista'">
+                <li class="nav-item active">
+                    <a class="nav-link" [routerLink]="['/reservaconsulta']" routerLinkActive="router-link-active">
+                        <i class="fas fa-eye" style="color: black;"></i>
+                        <span style="margin-left: 5px;">CONSULTAR RESERVAS</span></a>
+                    </li>
+            </div>
+        </div>
+    </div>
+</ul>
+
+<!-- End of Sidebar -->

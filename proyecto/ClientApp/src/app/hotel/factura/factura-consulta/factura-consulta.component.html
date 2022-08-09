@@ -1,0 +1,50 @@
+<!--
+
+<title>CONSULTAR FACTURAS</title>
+<br>
+<div align="center"><img src="assets/consultar.png" alt="Logo"><br>
+    <h1>CONSULTAR FACTURAS</h1>
+</div><br>
+
+<form class="form-inline" class="container" id="Buscador">
+    <input class="form-control mr-sm-2" type="search" placeholder="Buscar por Cedula" aria-label="Search">
+    <button class="btn btn-primary" type="submit">Buscar </button>
+</form><br><br>
+
+<button id="divcontainer2" type="button" class="btn btn-primary">Consultar</button>
+<div class="table-responsive" id="rcorners1">
+    <table class="table table-bordered" id="myTable" *ngIf='facturas && facturas.length'>
+        <thead>
+            <tr class="thead-dark">
+                <th (click)="sortTable(0)" scope="col">#</th>
+                <th (click)="sortTable(1)">Codigo Factura >> </th>
+                <th (click)="sortTable(2)">Fecha de Factura >></th>
+                <th (click)="sortTable(3)">Cedula del Cliente >></th>
+                <th (click)="sortTable(4)">Codigo Habitacion >></th>
+                <th (click)="sortTable(5)">Fecha de Entrada>></th>
+                <th (click)="sortTable(6)">Fecha de Salida>></th>
+                <th (click)="sortTable(7)">Subtotal >></th>
+                <th (click)="sortTable(8)">Iva >></th>
+                <th (click)="sortTable(9)">Total >></th>
+            </tr>
+        </thead>
+        <tbody id="tbodypulsacion" class="table-primary">
+            <tr *ngFor="let factura of facturas; index as i ">
+                <td scope="row">{{ i + 1 }}</td>
+                <td>{{ factura.codigof}} </td>
+                <td>{{ factura.fechaFactura}}</td>
+                <td>{{ factura.cedulaCliente}}</td>
+                <td>{{ factura.codigoh}}</td>
+                <td>{{ factura.fechaEntrada}}</td>
+                <td>{{ factura.fechaSalida}}</td>
+                <td>{{ factura.subtotal}}</td>
+                <td>{{ factura.iva}}</td>
+                <td>{{ factura.total}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br><br>
+
+-->
+    

@@ -1,0 +1,49 @@
+<title>CONSULTAR EMPLEADOS</title>
+<br>
+<div class="centrar">
+
+    <div class="card" style="border-radius: 20px;">
+        <div class="card-body">
+
+            <div class="container" style="margin-left: -0px;">
+
+                <form class="form-inline" class="container" id="Buscador">
+                    <input class="form-control mr-sm-2" name="filtroEmpleado" [(ngModel)]="searchText" type="text" placeholder="Buscar por Cedula" aria-label="Search">
+                </form><br>
+                
+                <table class="table" *ngIf='empleados && empleados.length'>
+                    <thead class="thead-dark">
+                        <tr>
+                            <th >Cedula</th>
+                            <th >Nombre</th>
+                            <th >Apellido</th>
+                            <th >Edad</th>
+                            <th >Sexo</th>
+                            <th >Telefono</th>
+                            <th >Jornada</th>
+                            <th >Cargo</th>
+                            <th >Editar</th>
+                            <th >Eliminar</th>
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let empleado of empleados|filtroEmpleado:searchText |slice: (page-1) * pageSize : (page-1) * pageSize + pageSize; index as i ">
+                            <td>{{ empleado.cedula}} </td>
+                            <td>{{ empleado.nombre }}</td>
+                            <td>{{ empleado.apellido }}</td>
+                            <td>{{ empleado.edad}}</td>
+                            <td>{{ empleado.sexo}}</td>
+                            <td>{{ empleado.telefono}}</td>
+                            <td>{{ empleado.jornada}}</td>
+                            <td>{{ empleado.cargo}}</td>
+                            <td><button  style=" border-radius: 15px; margin-top: 15px;" class="btn btn-primary"><i class="far fa-edit"></i></button></td>
+                            <td><button  style=" border-radius: 15px; margin-top: 15px;" class="btn btn-danger"><i class="far fa-trash-alt"></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
